@@ -45,3 +45,5 @@ app.post("/subtract", (request, response) => {
   response.send(status);
 });
 
+module.exports = app;
+
